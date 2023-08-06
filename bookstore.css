@@ -85,7 +85,7 @@
 
 .parallax {
   height: 200px;
-  background-image: url("/antique-bookshelf-illuminates-old-fashioned-literature-collection-indoors-generated-by-ai.jpg");
+  background-image: url("antique-bookshelf-illuminates-old-fashioned-literature-collection-indoors-generated-by-ai.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
