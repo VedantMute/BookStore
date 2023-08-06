@@ -1,0 +1,425 @@
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainPage {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+
+  background: rgb(249, 255, 188);
+  background: linear-gradient(90deg, rgba(249, 255, 188, 1) 0%, rgba(200, 215, 255, 1) 33%, rgba(212, 225, 238, 1) 50%, rgba(249, 255, 188, 1) 100%);
+  border-radius: 16px;
+  margin: 1vw 2vw;
+
+}
+
+.leftMainPage {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Belanosima', sans-serif;
+  /* width: 50%; */
+  padding-left: 25px;
+}
+
+.rightMainPage {
+  /* width: 50%; */
+  background-color: #FFFFFF;
+
+}
+
+.h5title{
+  font-size: 48px;
+  padding: 25px 0px 25px 120px;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container1 {
+  padding-top: 25px;
+  margin-bottom: 40px;
+  height: 350px;
+  width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  background-color:#ffffff;
+  box-shadow: 9px 9px 16px rgba(215, 218, 225, 0.73), -9px -9px 16px    rgba(255, 255, 255, 0.752);
+}
+.container1:hover {
+  
+  /* background-color:#f0f0f0; */
+  background-color:#f7f7f7;
+  box-shadow: 9px 9px 16px rgba(225, 225, 215, 0.73), -9px -9px 16px    rgba(255, 255, 255, 0.752);
+}
+
+.container1 div {
+  padding-bottom: 20px;
+}
+
+.iconTitle {
+  font-size: 24px;
+}
+
+.iconBio {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.brands {
+  background-color: rgba(208, 208, 208, 0.553);
+  height: 200px;
+  width: 98.5vw
+    /* margin-bottom: 25px; */
+}
+
+
+.parallax {
+  height: 200px;
+  background-image: url("/antique-bookshelf-illuminates-old-fashioned-literature-collection-indoors-generated-by-ai.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.brands{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.thirdPage {
+
+  height: 100vh;
+  background-size: cover;
+
+}
+
+.visit {
+  background-color: #92B4EC;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+#visitustitle {
+  text-align: center;
+  margin: 0px;
+  padding: 32px;
+}
+
+.visitus {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Belanosima', sans-serif;
+  padding: 30px;
+
+}
+
+#whentovisit {
+  font-size: 20px;
+  text-align: center;
+}
+
+.alldays {
+  font-size: 48px;
+  margin: 20px;
+
+}
+a{
+  color: #000000;
+}
+
+.alldayline {
+  width: 2px;
+  background-color: #92B4EC;
+  height: 48px;
+  margin-left: 53px;
+  margin-right: 10px;
+}
+
+#allbox {
+  gap: 30px;
+}
+
+.redirect {
+  padding: 12px;
+  background-color: #FFE69A;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.redirect:hover {
+  background-color: #ffce39;
+}
+
+#getDir {
+  background-color: transparent;
+  border: 2px solid #FFE69A;
+}
+
+#getDir:hover {
+  background-color: #ffce39;
+
+}
+
+#Addressflex {
+  /* margin-top: 50px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0vw 15vw;
+}
+
+#Address {
+  font-size: 32px;
+  line-height: 55px;
+}
+
+.contacticon {
+  margin-bottom: 25px;
+}
+
+.contacttext {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.cu {
+  margin-top: 250px;
+  /* Adjust the margin-top value as needed */
+}
+
+h4 {
+  font-size: 32px;
+  
+}
+
+.contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  font-size: 20px;
+  background: rgb(249, 255, 188);
+  background: linear-gradient(90deg, rgba(249, 255, 188, 1) 0%, rgba(200, 215, 255, 1) 33%, rgba(212, 225, 238, 1) 50%, rgba(249, 255, 188, 1) 100%);
+  border-radius: 16px;
+  margin: 0vw 8vw 8vw 8vw;
+  padding: 25px 0px 75px 0px;
+}
+
+input{
+  font-size: 10px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  width: 350px;
+  height: 60px;
+  padding: 12px;
+}
+input::placeholder{
+  font-size: 12px;
+}
+.input{
+  margin-bottom: 10px;
+}
+.button {
+  padding: 12px;
+  border: none;
+  background-color: #FFE69A;
+  border-radius: 12px;
+  width: 100px;
+  text-align: center;
+  box-shadow:
+    12px 12px 16px 0 rgba(0, 0, 0, 0.133),
+    -8px -8px 12px 0 rgba(189, 189, 189, 0.197);
+}
+
+.button:hover {
+  background-color: #fcff62;
+
+}
+.newsletter{
+  background-color: #92b4ec;
+  margin: 0vw 8vw 8vw 8vw;
+  width: 100%;
+  /* height: 130px; */
+  text-align: center;
+  border-radius: 16px;
+  padding: 15px;
+
+}
+.newsletter input{
+  margin-bottom: 20px;
+}
+
+/* ----------Footer CSS ----------*/
+footer{
+  background-color: #000000;
+  color: white;
+}
+.flexfooter{
+  display: flex;
+  justify-content: space-between;
+}
+#footerlabel{
+  background-color: #92b4ec;
+  padding: 5px 25px;
+}
+.footericon{
+  display: flex;
+  
+}
+.heading{
+  font-size: 24px;
+  padding-bottom: 20px;
+  line-height: 25px;
+  text-decoration: underline 2px solid #92b4ec;
+}
+.link{
+  line-height: 25px;
+}
+.link:hover{
+  color: #fcff62;
+  text-decoration: underline;
+}
+#box1{
+  width: 75vw;
+}
+#box2{
+  width: 75vw;
+}
+.outbox{
+  padding: 25px;
+  display: flex;
+  /* gap: 25px; */
+  
+}
+.box{
+  width: 25vw;
+  padding: 15px;
+}
+.copyrighttext{
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  
+}
+
+
+
+
+@media(max-width:900px) {
+  .mainPage{
+    height: 75vh;
+  }
+
+ .brands{
+  display: none;
+ }
+
+  .h5title {
+    font-size: 36px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  h4{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .flexcontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #Addressflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #Addressflex div img{
+    height: 230px;
+    width: 250px;
+  }
+  #Address{
+    font-size: 16px;
+    /* font-weight: bolder; */
+    line-height: 25px;
+    text-align: center;
+  }
+  .contactus{
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactleft{
+    padding-top: 25px;
+  }
+  .cuf{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 24px;
+  }
+  .alldays {
+    font-size: 32px;
+    margin: 20px;
+    text-align: center;
+  
+  }
+  /* Main page Responsiveness */
+  
+  .righttMainPage img{
+    display: none;
+  }
+  .outbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+  }
+  .flexfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .alldays {
+  font-size: 24px;
+  margin: 16px;
+
+}
+ 
+ input{
+  width: 75vw;
+ }
+ .newsletter{
+  padding: 0px 10px;
+ }
+ .button{
+  padding: 10px;
+  width: 75px;
+ }
+ .container{
+  height: 250px;
+ }
+ .icon img{
+  height: 75px;
+  width: 75px;
+ }
+}
+
